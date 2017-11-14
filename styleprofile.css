@@ -1,10 +1,14 @@
 h1{
   color: white;
-  background-color: black;
 }
 h2{
-  background-color: white;
   color: black;
+  float:right;
+
+}
+h3{
+  color: : black;
+  float:right;
 }
 .menu2{
   height:30px;
@@ -49,11 +53,11 @@ margin-left: auto;
   background-color: yellow;
 }
 .menu1{
-  float:;
+  float: ;
   background-color: black;
   color: White;
   font-weight: bolder;
-  margin-top:0px;
+  margin-top: auto;
 }
 .images_petit {
 width:50px;
