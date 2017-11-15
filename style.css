@@ -147,7 +147,7 @@ float: right ;
 -moz-border-radius:50px;
 text-align: center;
 }
-.mobileonly{
+.mobilesOnly{
 visibility:hidden;
 }
 .pulse {
