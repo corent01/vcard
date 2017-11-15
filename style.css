@@ -8,10 +8,12 @@
 h1{
   color: white;
   background-color: black;
+  background-image:linear-gradient(grey 1%, black 99%);
 }
 h2{
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
+  background-image:linear-gradient(grey 1%, black 99%);
 }
 .menu2{
   height:30px;
@@ -65,13 +67,15 @@ background-color: black;
   padding: 0;
   background-color: black;
   color: White;
+  background-image:linear-gradient(grey 1%, black 99%);
 }
 #menu1 li {
   background: black ;
   color: #fff ;
-  border: 1px solid black ;
+  border: 0px solid grey;
   margin-bottom: 1px ;
   display: inline;
+  background-image:linear-gradient(grey 1%, black 99%);
 }
 #menu1 li a {
   display: block ;
@@ -84,8 +88,9 @@ background-color: black;
   padding: 4px 0 ;
   display: inline;
   margin: 30px ;
+  background-image:linear-gradient(grey 1%, black 99%);
 }
-#menu1 li a:hover, #navigation li a:focus, #navigation li a:active {
+#menu1 li a:hover, #menu1 li a:focus, #menu1 li a:active {
   background: orange ;
   text-decoration: none ;
 }
@@ -146,6 +151,7 @@ float: right ;
   -webkit-border-radius:50px;
 -moz-border-radius:50px;
 text-align: center;
+background-image:linear-gradient(grey 1%, black 99%);
 }
 .mobilesOnly{
 visibility:hidden;
